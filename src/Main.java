@@ -12,14 +12,21 @@ public class Main {
      * Runs the quiz
      *
      */
-
+    private Scanner input = new Scanner(System.in);
+    private Random rand = new Random(1);// "Seed" makes every round the same. I generates semi rendomness
 
 
         public static void main(String[] args) {
 
+            Main game = new Main();
+            game.play();
 
-            Scanner input = new Scanner(System.in);
-            Random rand = new Random(1);// "Seed" makes every round the same. I generates semi rendomness
+
+        }
+
+        public void play (){
+
+
 
             int value1 = 1 + rand.nextInt(11);
             int value2 = 1 + rand.nextInt(11);
