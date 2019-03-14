@@ -9,8 +9,6 @@ public class QuestionTest {
     Question q = new Question();
         Assert.assertEquals(true, q.checkAnswer(10));
 
-
-
 */
 
 
